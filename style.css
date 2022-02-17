@@ -1,0 +1,191 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+#main{
+    background-image:url("knight4.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#main2{
+
+    background-image:url("back.webp");
+    background-size:cover; 
+    
+}
+* {
+    box-sizing: border-box;
+    padding: 10px 5px 5px;
+}
+
+h1 {
+    color:rgb(253, 253, 253);
+    font-size:50px;
+    
+    font-family:fantasy, cursive;
+    text-align: center
+    
+    
+}
+
+#intro{
+
+    color:rgb(255, 255, 255);
+    text-align:center;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 50px;
+    font-size: 30px;
+    height: 200px;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+
+
+li {
+    font-family: 'Akaya Telivigala', cursive;
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+a {
+    display: block;
+    padding: 20px;
+    background-color: #c40707;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}  
+.active {
+    background-color: #04AA6D;
+}
+ul {
+    background-color: #5e5656;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+#contents_about{
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+#contents_plot{
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#characters{
+    text-align: justify;
+    font-size:23px; 
+    font-family: 'Akaya Telivigala', cursive;
+    color:rgb(255, 255, 255);
+    height: 200px;
+    width: 50%;
+}
+li:last-child {
+    border-right: none;
+}
+
+#about{
+    text-align: justify;
+    font-size:25px; 
+    font-family: 'Akaya Telivigala', cursive;
+    color:rgb(253, 249, 249);
+    height: 200px;
+    width: 50%;
+}
+
+#picture{
+    float:right;
+    position:relative;
+    top: -200px;
+    
+   
+}
+#picture2{
+    float:right;
+    position:relative;
+    top: -220px;
+    left:-200px
+}   
+#picture3{
+    float:right;
+    position:relative;
+    top: 40px;
+    left:100px;
+}
+#picture4{
+    float:right;
+    position:relative;
+    top: 400px;
+    left:400px;
+}
+#picture5{
+    float:right;
+    position:relative;
+    top: 800px;
+    left:700px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 10px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.footer{
+    text-align: center;
+
+}
