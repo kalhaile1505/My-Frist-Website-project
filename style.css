@@ -8,6 +8,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -15,6 +16,8 @@ html {
 
     background-image:url("back.webp");
     background-size:cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 * {
@@ -45,6 +48,9 @@ h1 {
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 40px;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;    
 }
 
 
@@ -57,9 +63,9 @@ li {
 li a {
     display: block;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    padding: 10px 12px;
+    padding: 12px 30px;
     text-decoration: none;
 }
 
@@ -68,8 +74,7 @@ li a:hover {
 }
 a {
     display: block;
-    padding: 20px;
-    background-color: #c40707;
+    background-color: #8d8181;
 }
 li a:hover:not(.active) {
     background-color: #111;
@@ -78,13 +83,14 @@ li a:hover:not(.active) {
     background-color: #04AA6D;
 }
 ul {
-    background-color: #5e5656;
+    background-color: #413838;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     
 }
+
 
 #contents_about{
 
@@ -120,7 +126,14 @@ li:last-child {
     color:rgb(253, 249, 249);
     height: 200px;
     width: 50%;
+    
 }
+.box1 {
+    background-color: #000;
+    color: #fff;
+    opacity: .6;
+}
+    
 
 #picture{
     float:right;
